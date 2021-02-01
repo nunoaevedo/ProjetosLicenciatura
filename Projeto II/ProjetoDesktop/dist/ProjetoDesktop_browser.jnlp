@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ProjetoDesktop_browser.jnlp">
+  <information>
+    <title>ProjetoDesktop</title>
+    <vendor>Nuno</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ProjetoDesktop.jar" size="667346" download="eager" />
+    <jar href="lib\AbsoluteLayout.jar" size="2903" download="eager" />
+    <jar href="lib\ProjetoLibrary.jar" size="175086" download="eager" />
+    <jar href="lib\eclipselink.jar" size="8478776" download="eager" />
+    <jar href="lib\javax.persistence_2.1.0.v201304241213.jar" size="164637" download="eager" />
+    <jar href="lib\ojdbc8.jar" size="4210424" download="eager" />
+    <jar href="lib\ojdbc8_g.jar" size="7106749" download="eager" />
+    <jar href="lib\orchid-2.2.3.jar" size="761700" download="eager" />
+    <jar href="lib\orchid-beaninfo-2.2.3.jar" size="77333" download="eager" />
+    <jar href="lib\org.eclipse.persistence.jpa.jpql_2.5.2.v20140319-9ad6abd.jar" size="1366247" download="eager" />
+    <jar href="lib\swingx-all-1.6.4.jar" size="1482526" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="Main.Clinica"  name="ProjetoDesktop" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>

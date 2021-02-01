@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="ProjetoLibraryPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>DAL.Codpostal</class>
+    <class>DAL.Fatura</class>
+    <class>DAL.Artigo</class>
+    <class>DAL.Administrador</class>
+    <class>DAL.Rececionista</class>
+    <class>DAL.Especialidade</class>
+    <class>DAL.Consulta</class>
+    <class>DAL.Utilizador</class>
+    <class>DAL.Medico</class>
+    <class>DAL.Paciente</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@//localhost:1521/sys"/>
+      <property name="javax.persistence.jdbc.user" value="projeto"/>
+      <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
+      <property name="javax.persistence.jdbc.password" value="1234"/>
+    </properties>
+  </persistence-unit>
+</persistence>

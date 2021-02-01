@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ProgII.jnlp">
+  <information>
+    <title>ProgII</title>
+    <vendor>Nuno</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ProgII.jar" size="187690" download="eager" />
+    <jar href="lib\orchid-2.2.3.jar" size="761700" download="eager" />
+    <jar href="lib\orchid-beaninfo-2.2.3.jar" size="77333" download="eager" />
+    <jar href="lib\swingx-all-1.6.4.jar" size="1482526" download="eager" />
+  </resources>
+  <application-desc main-class="com.mycompany.trabalho_programacao.JFrame"  name="ProgII" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
